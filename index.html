@@ -9,19 +9,19 @@
 </head>
 <body>
     <header>
-        <img src="" alt="">
+        <img src="https://fbi.cults3d.com/uploaders/26022701/illustration-file/3ab59ae5-1648-4423-a9a6-85eac5d6d9c0/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA-%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0-2023-05-16-103157.png" alt="logo de la empresa">
         <nav>
             <ul>
-                <li><a href="/#Categorias"></a>Categorias</a></li>
-                <li><a href="/#Productos"></a>Productos</a></li>
-                <li><a href="/#Mensaje"></a>Contacto</a></li>
+                <li><a href="/#Categorias">Categorias</a></li>
+                <li><a href="/#Productos">Productos</a></li>
+                <li><a href="/#Mensaje">Contacto</a></li>
             </ul>
         </nav>
     </header>
     <main>
 <section id="Titulo">
     <h1>Casa de Articulos de Pesca "El Pela"</h1>
-    <p>Bienvenidos a la casa de pesca mas completa de zona sur. No solo encontrarás la mayor variedad en articulos sino tambien una excelente atención que podrá asesorarte respecto a cualquier inquietud. E incluso para tu comodidad también tenenos envío a domicilio sin cargo adicional dentro del partido de Quilmes.</p>
+    <p class="Breve descripcion">Bienvenidos a la casa de pesca mas completa de zona sur. No solo encontrarás la mayor variedad en articulos sino tambien una excelente atención que podrá asesorarte respecto a cualquier inquietud. E incluso para tu comodidad también tenenos envío a domicilio sin cargo adicional dentro del partido de Quilmes.</p>
 </section>
 <section id="Categorias">
     <h2>Categorias</h2>
@@ -91,18 +91,25 @@
 </section>
 <section id="Mensaje">
     <h3>Mandanos un mensaje</h3>
-    <form>
+    <form action="https://formsubmit.co/thomascolagiovanni@gmail.com">
+        <div>
 <label for="Name"> Nombre
     <input type="Nombre"
-    placeholder="Ingrese su nombre">
+    placeholder="Ingrese su nombre"
+    required>
 </label>
+</div>
+<div>
 <label> Correo electrónico
-    <input type="Correo electrónico"
-    placeholder="Ingrese su correo electrónico">
+    <input type="email"
+    placeholder="Ingrese su correo electrónico"
+    required>
 </label>
-<label> Consulta
-    <textarea name="Consulta" id="Message"placeholder="Escriba su consulta "></textarea>
-</label>
+</div>
+<div>
+<label for="Message"> Consulta</label>
+    <textarea name="Consulta" placeholder="Escriba su consulta" required></textarea>
+</div>
 <button>Enviar</button>
 </form>
 </section>
